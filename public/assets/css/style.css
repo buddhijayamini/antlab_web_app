@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #8b008b, #4b0082);
+    font-family: 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+/* Login Container */
+.login-container {
+    width: 400px;
+    padding: 20px 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff4500;
+}
+
+/* Header Text */
+h5 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffe4c4;
+}
+
+/* Input Fields */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Checkbox Styling */
+.form-check {
+    margin-top: 10px;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #ffe4c4;
+    border: none;
+    color: #4b0082;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #ffdfaa;
+}
